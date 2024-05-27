@@ -45,7 +45,8 @@ input.addEventListener("keyup", (e) => {
             listItem.innerHTML = word;
             document.querySelector(".list").appendChild(listItem);
             document.querySelector(".list").style.padding = "6px";
-            document.querySelector(".footer").style.top = "-47px";
+            document.querySelector(".footer").style.top = "-60px";
+            document.querySelector(".footer").style.marginBottom = "0";
         }
     }
 });
@@ -64,7 +65,8 @@ function displayNames(value) {
 }
 function removeElements() {
     //clear all the item
-    document.querySelector(".footer").style.top = "155px";
+    document.querySelector(".footer").style.top = "105px";
+    document.querySelector(".footer").style.marginBottom
     document.querySelector(".list").style.padding = "0px";
     let items = document.querySelectorAll(".list-items");
     items.forEach((item) => {
