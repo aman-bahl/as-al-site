@@ -1,0 +1,198 @@
+@import url("https://api.fontshare.com/v2/css?f[]=clash-grotesk@400,500,600,700&display=swap");
+
+html {
+    background-color: rgb(22, 22, 22);
+}
+
+* {
+    font-family: 'Clash Grotesk', sans-serif;
+}
+
+/* ::selection {
+    background-color: rgb(150, 176, 255);
+    color: #3a3a3a;
+} */
+
+.box {
+    margin-top: 4rem;
+    /*6.5rem */
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 3.4rem;
+}
+
+.search-box {
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 18rem;
+}
+
+.search-box input {
+    outline: none;
+    background-color: rgb(22, 22, 22);
+    border: 2px solid antiquewhite;
+    padding: 15px;
+    font-size: 1.3rem;
+    transition-duration: .4s;
+    border-radius: 15px;
+    width: 20rem;
+    color: antiquewhite;
+}
+
+.delay {
+    transition-duration: 3s;
+}
+
+.search-box input:focus {
+    border: 2px solid rgb(150, 176, 255);
+}
+
+.error-text {
+    /* white-space: normal; */
+    color: rgb(255, 108, 108);
+    font-weight: 500;
+    margin-left: -12.9rem;
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+}
+
+button {
+    padding: 17px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: none;
+    margin-left: 9px;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+button i {
+    font-size: 1.4rem;
+}
+
+button:hover {
+    background-color: rgb(150, 176, 255);
+}
+
+ul {
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.list {
+    width: 21.7rem;
+    background-color: rgb(47, 47, 47);
+    border-radius: 11px;
+    margin-top: 7px;
+    padding: 0px;
+}
+
+.list-items {
+    padding: 11px 12px;
+    border-radius: 8px;
+    color: antiquewhite;
+}
+
+.list-items:hover {
+    background-color: #1e1e1e;
+}
+
+.refresh {
+    color: rgb(155, 155, 155);
+    text-decoration: underline;
+    display: none;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+section {
+    background-color: #252525;
+    padding-top: 10px;
+    border-radius: 12px;
+    width: 30%;
+}
+
+.resources {
+    display: flex;
+    justify-content: center;
+}
+
+.resources section a {
+    text-decoration: none;
+    padding: 14px;
+    background-color: antiquewhite;
+    margin-bottom: 90px;
+    font-size: 1.4rem;
+    color: #dedede;
+    font-weight: 500;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: calc(88%);
+    background-color: #3a3a3a;
+    transition-duration: .5s;
+}
+.resources a:hover {
+    background-color: antiquewhite;
+    color: #1e1e1e;
+}
+
+section {
+    text-align: center;
+}
+
+
+.refresh i {
+    margin-left: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px;
+    color: grey;
+    font-size: 1.19rem;
+    margin-bottom: 3.8rem;
+}
+
+footer i {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+b {
+    font-weight: 600;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  } */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(46, 46, 46);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #3a3a3a;
+}
