@@ -43,7 +43,7 @@ input.addEventListener("keyup", (e) => {
             listItem.innerHTML = word;
             document.querySelector(".list").appendChild(listItem);
             document.querySelector(".list").style.padding = "6px";
-            document.querySelector(".footer").style.top = "-60px";
+            document.querySelector(".footer").style.top = "55px";
             document.querySelector(".footer").style.marginBottom = "0";
         }
     }
