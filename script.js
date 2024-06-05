@@ -63,7 +63,7 @@ function displayNames(value) {
 }
 function removeElements() {
     //clear all the item
-    document.querySelector(".footer").style.top = "0px";
+    // document.querySelector(".footer").style.top = "0px";
     document.querySelector(".footer").style.marginBottom
     document.querySelector(".list").style.padding = "0px";
     let items = document.querySelectorAll(".list-items");
