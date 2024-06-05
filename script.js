@@ -39,8 +39,6 @@ input.addEventListener("keyup", (e) => {
             let word = "<b>" + i.substr(0, input.value.length) + "</b>";
             word += i.substr(input.value.length);
 
-            console.log(i);
-
             //display the value in array
             listItem.innerHTML = word;
             document.querySelector(".list").appendChild(listItem);
@@ -65,7 +63,7 @@ function displayNames(value) {
 }
 function removeElements() {
     //clear all the item
-    document.querySelector(".footer").style.top = "85px";
+    document.querySelector(".footer").style.top = "0px";
     document.querySelector(".footer").style.marginBottom
     document.querySelector(".list").style.padding = "0px";
     let items = document.querySelectorAll(".list-items");
