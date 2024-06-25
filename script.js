@@ -23,7 +23,8 @@ input.addEventListener("keyup", (e) => {
     //loop through above array
     //Initially remove all elements ( so if user erases a letter or adds new letter then clean previous outputs)
     removeElements();
-    document.querySelector(".footer").style.bottom = "-45px";
+    // document.querySelector(".footer").style.bottom = "-45px";
+    document.querySelector(".footer").style.display = "none";
     for (let i of subjects_list) {
         //convert input to lowercase and compare with each string
         if (
