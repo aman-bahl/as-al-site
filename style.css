@@ -209,21 +209,29 @@ b {
         font-size: 2rem;
     }
 
+    .box {
+        margin-top: 8rem;
+    }
+
     .search-box > input {
         font-size: 1.1rem;
     }
 
     .search-box {
-        margin-top: 6.7rem;
+        margin-top: 4rem;
+    }
+
+    .list {
+        width: 20.6rem;
     }
 
     .list-items {
-        width: 21.67rem;
+        width: 20rem;
     }
 
     footer {
-        /* bottom:-140px; */
-        top: 22rem;
+        bottom:-140px;
+        /* top: 22rem; */
     }
 
     .resources {
@@ -231,11 +239,11 @@ b {
     }
 
     section {
-        width: 83%;
+        width: 88%;
     }
 
     .resources > section > a {
-        width: 17.7rem;
+        width: 87%;
     }
 
 }
