@@ -23,6 +23,7 @@ input.addEventListener("keyup", (e) => {
     //loop through above array
     //Initially remove all elements ( so if user erases a letter or adds new letter then clean previous outputs)
     removeElements();
+    document.querySelector(".footer").style.bottom = "-45px";
     for (let i of subjects_list) {
         //convert input to lowercase and compare with each string
         if (
@@ -43,8 +44,8 @@ input.addEventListener("keyup", (e) => {
             listItem.innerHTML = word;
             document.querySelector(".list").appendChild(listItem);
             document.querySelector(".list").style.padding = "6px";
-            document.querySelector(".footer").style.top = "-35px";
-            document.querySelector(".footer").style.marginBottom = "0";
+            // document.querySelector(".footer").style.top = "-35px";
+            // document.querySelector(".footer").style.marginBottom = "0";
         }
     }
 });

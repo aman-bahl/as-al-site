@@ -162,10 +162,11 @@ footer {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 20px;
+    /* top: 20px; */
+    bottom: -45px;
     color: grey;
     font-size: 1.19rem;
-    margin-bottom: 3.8rem;
+    /* margin-bottom: 3.8rem; */
 }
 
 footer i {
