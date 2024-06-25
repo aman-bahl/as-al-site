@@ -1,0 +1,36 @@
+@media (min-width:320px) and (max-width: 480px)  {
+
+    .box > h1 {
+        font-size: 2rem;
+    }
+
+    .search-box > input {
+        font-size: 1.1rem;
+    }
+
+    .search-box {
+        margin-top: 6.7rem;
+    }
+
+    .list-items {
+        width: 21.67rem;
+    }
+
+    footer {
+        /* bottom:-140px; */
+        top: 22rem;
+    }
+
+    .resources {
+        margin-top: 4rem;
+    }
+
+    section {
+        width: 83%;
+    }
+
+    .resources > section > a {
+        width: 17.7rem;
+    }
+
+}
