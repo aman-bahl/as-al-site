@@ -148,6 +148,10 @@ section {
     text-align: center;
 }
 
+.mat-res {
+    margin-bottom: 4rem;
+}
+
 
 .refresh i {
     margin-left: 5px;
